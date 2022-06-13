@@ -1,0 +1,16 @@
+{
+  "name": "cypress10",
+  "version": "1.0.0",
+  "description": "Estudo do Cypress 10.1 com typescript.",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^10.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Rafael R."
+}
