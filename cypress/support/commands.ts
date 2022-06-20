@@ -1,6 +1,14 @@
+/**
+* Visita a url base configurada em cypress.config.ts 
+* @example visitarUrlBase()
+*/
 Cypress.Commands.add('visitarUrlBase',() => {  
     cy.visit('/')
 })
-Cypress.Commands.add('clicar',(elemento) => {  
+/**
+* Clica no item da tela baseada no elemento enviado 
+* @example clicarNoElemento(elementoAqui)
+*/
+Cypress.Commands.add('clicarNoElemento',(elemento) => {  
     cy.get(elemento).click()
 })
